@@ -13,9 +13,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="assets/css/font-awesome.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -23,34 +26,32 @@
 
   <body>
     <header>
-      
-        <img src="assets/img/logo.svg" alt="Epicode logo" />
+      <img src="assets/img/logo.svg" alt="Epicode logo" />
 
-        <h3>EPICODE - IL BLOG DEI DEVELOPERS</h3>
-        <nav>
-          <ul>
-            <li>
-              <i class="fas fa-arrow-right"></i>HOME<i
-                class="fas fa-arrow-left"
-              ></i>
-            </li>
-            <li>
-              <i class="fas fa-arrow-right"></i>ARTICOLI<i
-                class="fas fa-arrow-left"
-              ></i>
-            </li>
-            <li>
-              <i class="fas fa-arrow-right"></i>LAVORA CON NOI<i
-                class="fas fa-arrow-left"
-              ></i>
-            </li>
-          </ul>
-        </nav>
-      
+      <h3>EPICODE - IL BLOG DEI DEVELOPERS</h3>
+      <nav>
+        <ul>
+          <li>
+            <i class="fas fa-arrow-right"></i>HOME<i
+              class="fas fa-arrow-left"
+            ></i>
+          </li>
+          <li>
+            <i class="fas fa-arrow-right"></i>ARTICOLI<i
+              class="fas fa-arrow-left"
+            ></i>
+          </li>
+          <li>
+            <i class="fas fa-arrow-right"></i>LAVORA CON NOI<i
+              class="fas fa-arrow-left"
+            ></i>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div id="container">
-        <h2>Come Creare un Template per i post</h2>
+        <h2>Come Creare un template per i post</h2>
         <p>
           <i class="fas fa-check-square"></i>di Mario Rossi-
           <i class="fas fa-clock"></i>Pubblicato il 25-10-2020
@@ -63,7 +64,8 @@
         <p>Le varie aree saranno quindi suddivise in:</p>
         <ul>
           <li>
-            Contentuti di intestazione dei tag <span class="cornice">&lt;header&gt;</span>
+            Contentuti di intestazione dei tag
+            <span class="cornice">&lt;header&gt;</span>
           </li>
           <li>
             Contenuti centrali variabili del tag
@@ -150,13 +152,16 @@
           ></iframe>
         </div>
         <div class="novità">
-          <h5>NOVITA</h5>
           <form>
-            Vuoi rimanere aggiornato sulle altre novità del blog? Iscriviti alla
-            news letter.
+            <p>NOVITA</p>
+
+            <label for="email">
+              Vuoi rimanere aggiornato sulle altre novità del blog? Iscriviti
+              alla news letter.</label
+            >
+            <input type="email" name="" id="email" required />
+            <input type="button" value="Iscriviti!" />
           </form>
-          <input type="email" name="" id="" />
-          <input type="button" value="Iscriviti!" />
         </div>
 
         <h5>ARTICOLI CORRELATI</h5>
@@ -164,7 +169,7 @@
           <a href="#"> Validare il codice HTML </a>
           <!-- icona -->
           <p><i class="fas fa-tag"></i>Categoria :develop</p>
-          <p class="Data"></p><i class="fas fa-calendar-alt"></i>Data:18-9-2020</p>
+          <p class="Data"><i class="fas fa-calendar-alt"></i>Data:18-9-2020</p>
         </div>
         <div class="correlati">
           <a href="#">Correggere la sintassi </a>
@@ -187,8 +192,8 @@
       <div id="copyright">Blog Epicode &copy;2021</div>
       <div>
         Testata online di Mario Rossi , registrata con prot n.213/2018 -via
-        Luigi Einaudi 2 - Milano P. IVA 00112233.
-        <a href="#">info@epicode.School</a>
+        Luigi Einaudi 2 - Milano
+        <p>P. IVA 00112233. <a href="#">info@epicode.School</a></p>
       </div>
     </footer>
   </body>

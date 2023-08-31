@@ -6,29 +6,35 @@ body
 /* HEADER */
 
 header {width: 90%; background-image: linear-gradient(#0895c4,#78bfd6) ; text-align: center; margin: auto;padding-bottom: 1.3em;}
+header img {padding-top: 2em;}
 
+h3,nav  {color: white;font-weight: bold; padding: 1em;}
 
-h1,nav {color: white;font-weight: bold; }
-nav,i {margin-left: 0.5em; line-height: 2%; }
-
-i { margin-right: 0.5em;}
-
+i { margin-right: 0.5em; margin-left: 0.5em;}
 
 
 /* MAIN */
 
 h2 {font-size: 1.8em;font-weight: bold;}
-#container,footer {background-color: white;width: 90%;margin: auto;margin: 1em;}
-h2,p,li,table {margin: 0.5em;}
-.evidenzia {color: red;}
-.cornice {display: inline-block;border-color:black ;border-width: 1px;}
 
-#video {text-align: center; max-width: 100%; }
+#container,footer {background-color: white;width: 90%;margin: auto;}
+
+
+h2,p,li, {margin: 0.5em;}
+.evidenzia {color: rgb(231, 0, 162);}
+.cornice {display: inline-block; background-color: rgb(221, 221, 221);border:solid black 1px;padding: 0.1em;border-radius:  10px;}
+
+ul {list-style-type: disc; margin: 2em 0em 2em 2em;}
+ol {list-style-type: decimal;margin: 2em 0em 2em 2em;}
+#video {text-align: center; max-width: 100%;}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
 caption {font-style: italic;font-weight: bold;}
-table {;}
+
+
+
+th {background-color: #3b83f0;color: white;}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE correlati */
